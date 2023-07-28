@@ -27,7 +27,7 @@ export default {
                 <h1 class="c_lightbrown_1 f_"> Benvenuto! Sono Davide Taribelli </h1>
                 <div class="carousel d-flex flex-column align-items-center">
                     <transition-group name="slide">
-                        <div class="carousel-item my-3 p-3 rounded-3 d-flex text-align-center bg_lightbrown_1" v-for="item in items" :key="item">
+                        <div class="carousel-item my-3 p-3 rounded-3 d-flex text-align-center bg_lightbrown_2 c_lightbrown_1" v-for="item in items" :key="item">
                             {{ item }}
                         </div>
                     </transition-group>
