@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 export default {
-    name: "ProjectCard",
+    name: "EventCard",
     data() {
         return {
             apiUrl: "http://localhost:8000/api/",

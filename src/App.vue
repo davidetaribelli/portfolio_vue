@@ -16,10 +16,11 @@ export default {
 </script>
 
 <template>
+<!-- richiamo app header -->
 <header>
   <AppHeader/>
 </header>
-
+<!-- richiamo app main -->
 <main>
   <AppMain />
 </main>
@@ -27,8 +28,15 @@ export default {
 <footer>
 
 </footer>
+
 </template>
 
 <style lang="scss">
 @use './style.scss' as *;
+
+header,
+main,
+footer{
+  background-color: #31231f;
+}
 </style>

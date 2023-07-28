@@ -14,7 +14,8 @@ export default {
         <div class="container-fluid">
             <div class="container">
                 <a class="navbar-brand" href="/events">
-                    <img src="public\dt-low-resolution-logo-color-on-transparent-background.png" alt="logo" width="35" height="25">
+                    <img src="../assets/img/dt-low-resolution-logo-color-on-transparent-background.png" alt="logo" width="35"
+                        height="25">
                 </a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -44,9 +45,17 @@ export default {
     </nav>
 </template>
 
-<style scoped>
-.navbar{
-    background: rgb(49,35,31);
-background: linear-gradient(180deg, rgba(49,35,31,1) 7%, rgba(0,0,0,0.0844712885154062) 40%);
+<style lang="scss" scoped>
+.navbar {
+    height: 150px;
+    background-image: linear-gradient(#0b0e0e 3rem, rgba(11, 14, 14, 0));
+}
+
+.nav-item {
+    a {
+        &:hover {
+            background-color: #31231f;
+        }
+    }
 }
 </style>
