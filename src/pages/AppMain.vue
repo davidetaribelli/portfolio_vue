@@ -1,6 +1,7 @@
 <script>
 import EventCard from '../components/EventCard.vue';
-import AppAbout from '../components/AppAbout.vue';
+import AppJumbo from '../components/AppJumbo.vue'
+import AppAbout from '../components/AppAbout.vue'
 export default {
     name: "AppMain",
     data() {
@@ -9,18 +10,26 @@ export default {
         }
     },
     components:{
-        EventCard,
+        
+        AppJumbo,
         AppAbout,
+        EventCard,
+
     }
 }
 </script>
 
 <template>
-    <!-- richiamo la pagina app about -->
-
+    <!-- richiamo la pagina app jumbo -->
     <section>
-        <AppAbout/>
+        <AppJumbo/>
     </section>
+
+    <!-- richiamo la pagina app about -->
+    <section>
+        <AppAbout />
+    </section>
+
     <!-- richiamo la pagina event card -->
     <section>
         <EventCard />
