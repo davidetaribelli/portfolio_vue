@@ -15,7 +15,7 @@ export default{
         <div class="col-12">
             <h2 class="c_lightbrown_1 my-5 py-3 border-bottom">Contact.</h2>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6">
             <div class="d-flex align-items-center c_lightbrown_1 fs-3 border-bottom p-3">
                 <i class="fa-solid fa-at"></i>
                 <h3 class="mx-3">

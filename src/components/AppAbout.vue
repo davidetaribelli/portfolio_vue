@@ -16,12 +16,12 @@ export default {
             <div class="col-12 p-3">
                 <h2 class="c_lightbrown_1 my-5 py-3 border-bottom">About.</h2>
                 <div class="row align-items-center">
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="img_">
                             <img src="../assets/img/IMG_DE4ED5D777BF-1-min.jpeg" alt="profilo">
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <p class="c_lightbrown_1 my-5 py-3">
                             Sono Davide. <br>
                             Fin da bambino ho manifestato la <b>passione</b> per il mondo della programmazione, ma alcune scelte

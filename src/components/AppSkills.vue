@@ -15,7 +15,7 @@ export default {
             <div class="col-12 p-3">
                 <h2 class="c_lightbrown_1 my-5 py-3 border-bottom">Skills.</h2>
             </div>
-            <div class="col-5 c_lightbrown_1">
+            <div class="col-lg-5 c_lightbrown_1">
                 <h3>Front-end.</h3>
                 <div class="d-flex justify-content-between p-5">
                     <ul>
@@ -31,10 +31,10 @@ export default {
                     </ul>
                 </div>
             </div>
-            <div class="col-2 d-flex justify-content-center p-3">
+            <div class="col-2  d-none d-lg-block d-flex justify-content-center p-3">
                 <div class="line_ bg_lightbrown_1"></div>
             </div>
-            <div class="col-5 c_lightbrown_1">
+            <div class="col-lg-5 c_lightbrown_1">
                 <h3>Back-end.</h3>
                 <div class="d-flex justify-content-between p-5">
                     <ul>

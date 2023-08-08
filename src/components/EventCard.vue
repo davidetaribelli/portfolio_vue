@@ -43,7 +43,7 @@ export default {
             <!-- stampo nella pagina utilizzando i metodi di vue -->
             <div class="col-12">
                 <div class="row justify-content-center g-4">
-                    <div class="col-5 card p-0 m-2" v-for="event in events">
+                    <div class="col-lg-5 card p-0 m-2" v-for="event in events">
                         <img class="card-img" :src="'http://127.0.0.1:8000/storage/' + event.image" :alt="event.title">
                         <div class="card-img-overlay text-white p-0 ">
                             <h3 class="card-title my-5 fw-bold">{{ event.title }}</h3>
