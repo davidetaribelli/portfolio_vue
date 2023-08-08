@@ -33,7 +33,7 @@ export default {
     </section>
 
     <!-- richiamo la pagina app about -->
-    <section>
+    <section class="bg_lightbrown_2">
         <AppAbout />
     </section>
 
@@ -43,7 +43,7 @@ export default {
     </section>
 
     <!-- richiamo la pagina event card -->
-    <section>
+    <section class="bg_lightbrown_2">
         <EventCard />
     </section>
 
@@ -53,7 +53,7 @@ export default {
     </section>
 
     <!-- richiamo la pagina app contact -->
-    <section>
+    <section class="bg_lightbrown_2">
         <AppContact />
     </section>
 </template>
