@@ -4,6 +4,7 @@ import AppJumbo from '../components/AppJumbo.vue'
 import AppAbout from '../components/AppAbout.vue'
 import AppExperience from '../components/AppExperience.vue';
 import AppSkills from '../components/AppSkills.vue';
+import AppContact from '../components/AppContact.vue';
 
 export default {
     name: "AppMain",
@@ -18,7 +19,8 @@ export default {
         AppAbout,
         AppExperience,
         EventCard,
-        AppSkills
+        AppSkills,
+        AppContact
 
     }
 }
@@ -48,6 +50,11 @@ export default {
     <!-- richiamo la pagina app skills -->
     <section>
         <AppSkills />
+    </section>
+
+    <!-- richiamo la pagina app contact -->
+    <section>
+        <AppContact />
     </section>
 </template>
 
