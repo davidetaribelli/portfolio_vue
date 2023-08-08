@@ -3,6 +3,7 @@ import EventCard from '../components/EventCard.vue';
 import AppJumbo from '../components/AppJumbo.vue'
 import AppAbout from '../components/AppAbout.vue'
 import AppExperience from '../components/AppExperience.vue';
+import AppSkills from '../components/AppSkills.vue';
 
 export default {
     name: "AppMain",
@@ -17,6 +18,7 @@ export default {
         AppAbout,
         AppExperience,
         EventCard,
+        AppSkills
 
     }
 }
@@ -41,6 +43,11 @@ export default {
     <!-- richiamo la pagina event card -->
     <section>
         <EventCard />
+    </section>
+
+    <!-- richiamo la pagina app skills -->
+    <section>
+        <AppSkills />
     </section>
 </template>
 
