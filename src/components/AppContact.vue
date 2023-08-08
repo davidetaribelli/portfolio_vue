@@ -10,7 +10,7 @@ export default{
 </script>
 
 <template>
-<div class="container py-3">
+<div id="contact" class="container py-3">
     <div class="row">
         <div class="col-12">
             <h2 class="c_lightbrown_1 my-5 py-3 border-bottom">Contact.</h2>
