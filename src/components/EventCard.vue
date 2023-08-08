@@ -32,11 +32,11 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <div id="works" class="container">
         <div class="row">
             <!-- utilizzo il caricamento in corso nel caso di errori -->
             <div class="col-12 p-3">
-                <h2 class="c_lightbrown_1 my-5 py-3 border-bottom">Projects.</h2>
+                <h2 class="c_lightbrown_1 my-5 py-3 border-bottom">Works.</h2>
                 <h6 v-if="loading">Caricamento in corso</h6>
                 <h6 v-if="loadingError">{{ this.loadingError }}</h6>
             </div>
@@ -74,9 +74,9 @@ export default {
 
     &:hover {
         opacity: 0.7;
-
         .card-text {
             display: block;
+            
         }
 
         .card-title {

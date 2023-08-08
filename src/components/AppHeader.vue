@@ -25,19 +25,19 @@ export default {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link  c_lightbrown_1" href="#">ABOUT</a>
+                        <a class="nav-link  c_lightbrown_1" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  c_lightbrown_1" href="#">EXPERIENCE</a>
+                        <a class="nav-link  c_lightbrown_1" href="#experience">EXPERIENCE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  c_lightbrown_1" href="#">WORKS</a>
+                        <a class="nav-link  c_lightbrown_1" href="#works">WORKS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  c_lightbrown_1" href="#">SKILLS</a>
+                        <a class="nav-link  c_lightbrown_1" href="#skills">SKILLS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  c_lightbrown_1" href="#">CONTACT</a>
+                        <a class="nav-link  c_lightbrown_1" href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>
