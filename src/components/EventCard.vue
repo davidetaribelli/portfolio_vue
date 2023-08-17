@@ -9,27 +9,27 @@ export default {
                 {
                     title: "Coding Challenge",
                     image: "codingchallenge.png",
-                    description: "Questo è stato il mio primo progetto, grazie a questo sono riuscito ad entrare in Boolean. Non è nulla di complesso, ho utilizzato solo HTML e CSS. Nonostante ciò ricordo che mi aveva dato parecchie difficoltà, sono arrivato al punto in cui stavo per abbandonare. Poi decisi di ricominciare, eliminai tutto e lo feci da 0.Quella sera consegnai il progetto e dopo qualche giorno mi arrivò l\'email da parte di Boolean, dicendomi che mi avevano preso.\nHo deciso di mettere questo progetto perchè stato il primo di una lunga serie e forse anche quello a cui sono più affezionato."
+                    description: "Questo è stato il mio primo progetto, grazie a questo sono riuscito ad entrare in Boolean. Non è nulla di complesso, ho utilizzato solo HTML e CSS. Ho deciso di mettere questo progetto perchè stato il primo di una lunga serie e forse anche quello a cui sono più affezionato."
                 },
                 {
                     title: "Spotify",
                     image: "spotify.jpg",
-                    description: "In questo progetto viene rappresentata la pagina web di Spotify. Ho utilizzato HTML e CSS per la creazione di questa pagina. È stato il primo tra i progetti più complicati datomi da Boolean. Per la prima volta ho dovuto creare una navbar e non vi dico quanto ci ho messo per creare le linee per volume e tempo. Ma per come sono fatto più è complicato e più mi piace."
+                    description: "In questo progetto viene rappresentata la pagina web di Spotify."
                 },
                 {
                     title: "Discord",
                     image: "discord.png",
-                    description: "Questa è una rappresentazione della pagina web di Discord. Questo progetto ha avuto una durata di 3 giorni. Nel primo giorno ho dovuto creare il layout. Nel secondo ho iniziato a mettere i primi elementi all'interno del layout creato in precedenza. Il terzo giorno era per le rifiniture. È stato davvero divertente fare questo progetto, sia per la complessità di creare per la prima volta una pagina con tutti questi elementi, sia per il metodo di lavoro utilizzato( layout - elementi - rifiniture )."
+                    description: "Questa è una rappresentazione della pagina web di Discord."
                 },
                 {
                     title: "DC Comics",
                     image: "dc_comics.jpg",
-                    description: "Questa è una rappresentazione della pagina web di Discord. Questo progetto ha avuto una durata di 3 giorni. Nel primo giorno ho dovuto creare il layout. Nel secondo ho iniziato a mettere i primi elementi all'interno del layout creato in precedenza. Il terzo giorno era per le rifiniture. È stato davvero divertente fare questo progetto, sia per la complessità di creare per la prima volta una pagina con tutti questi elementi, sia per il metodo di lavoro utilizzato( layout - elementi - rifiniture )."
+                    description: "Questa è una rappresentazione della pagina web della DC Comics."
                 },
                 {
                     title: "Mittern",
                     image: "mittern.png",
-                    description: "Questa è una rappresentazione della pagina web di Discord. Questo progetto ha avuto una durata di 3 giorni. Nel primo giorno ho dovuto creare il layout. Nel secondo ho iniziato a mettere i primi elementi all'interno del layout creato in precedenza. Il terzo giorno era per le rifiniture. È stato davvero divertente fare questo progetto, sia per la complessità di creare per la prima volta una pagina con tutti questi elementi, sia per il metodo di lavoro utilizzato( layout - elementi - rifiniture )."
+                    description: "Questa è una rappresentazione di una Cartoon Agency."
                 }
 
             ]
@@ -59,7 +59,7 @@ export default {
                         <img class="card-img" :src="event.image" :alt="event.title">
                         <div class="card-img-overlay text-white p-0 ">
                             <h3 class="card-title my-5 fw-bold">{{ event.title }}</h3>
-                            <p class="card-text my-5 p-3 fw-bold">{{ event.description }}</p>
+                            <p class="card-text d-none my-5 p-3 fw-bold">{{ event.description }}</p>
                         </div>
                     </div>
                 </div>
@@ -81,15 +81,19 @@ export default {
     }
 
     .card-text {
-        display: none;
+        width: 100%;
+        height: 100%;
     }
 
     &:hover {
         opacity: 0.7;
 
         .card-text {
-            display: block;
-
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            padding: 0 !important;
+            margin: 0 !important;
         }
 
         .card-title {
