@@ -18,7 +18,7 @@ export default {
             </div>
             <div class="col-lg-7 c_lightbrown_1 d-flex flex-wrap align-items-center">
                 <div class="col-3 square_">
-                    <img src="../assets/img/logo copia.png" alt="logo-boolean">
+                    <img src="../assets/img/logo-copia.png" alt="logo-boolean">
                 </div>
                 <div class="col-lg-9 d-flex align-items-center">
                     <h3 class="mx-3">Boolean Careers</h3>
